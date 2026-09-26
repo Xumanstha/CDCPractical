@@ -1,0 +1,13 @@
+int main
+{
+    int age = 20;
+    float salary = 50000;
+    char grade = a;
+
+    if (age > 18)
+    {
+        salary = salary + 5000;
+    }
+
+    return 0;
+}
