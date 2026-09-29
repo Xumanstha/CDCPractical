@@ -10,7 +10,7 @@ int main()
     if (isalpha(a[0]) || a[0] == '_')
         flag = 1;
     else
-        printf("\n Not a valid identifier");
+        printf("\n Not a valid identifier\n");
     while (a[i] != '\0')
     {
         if (!isdigit(a[i]) && !isalpha(a[i]) && a[i] != '_')
@@ -21,8 +21,8 @@ int main()
         i++;
     }
     if (flag == 1)
-        printf("\n Valid identifier");
+        printf("\n Valid identifier \n");
     else
-        printf("Not a valid identifier");
+        printf("Not a valid identifier\n");
     return 0;
 }
